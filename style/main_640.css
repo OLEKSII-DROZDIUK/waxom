@@ -1,0 +1,43 @@
+@media screen and (max-width:640px) { 
+
+    .mobile-device_main__text {
+        max-width: 100%;
+    }
+
+    .partners { 
+        grid-template-columns:1fr;
+        height: 100%;
+        grid-row-gap: 25px;
+    }
+
+    .mobile-device_main__text {
+        font-size: 12px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .mobile-device_main__arrows {
+        margin:0px;
+        text-align: center;
+    }
+
+    .mobile-device_main__arrows p::before {
+        display:none;
+    }
+
+    .mobile-device_main h2 {
+        font-size:18px;
+        text-align: center;
+    }
+
+    .mobile-device_main__text {
+        display:none;
+    }
+
+    .imgblock_mather {
+        grid-column-gap:0px;
+        grid-row-gap: 0px;
+
+    }
+
+}

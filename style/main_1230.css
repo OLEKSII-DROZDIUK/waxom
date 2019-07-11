@@ -1,0 +1,64 @@
+@media screen and (max-width:1230px) {
+    
+    .arrow-right {
+        margin:100px 0px 0px 0px;
+    }
+
+    .arrow-left {
+        margin:100px 0px 0px 0px;
+    }
+
+    .waxonidea_background-photo__1,
+    .waxonidea_background-photo__3 {
+        display:none;
+    }
+
+    .waxonidea_background-photo {
+        width: 100%;
+        position: static;
+    }
+
+    .waxonidea_background-photo__2 {
+        position:static;
+        margin:0 auto;
+    }
+
+    .services {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .services>div{
+        margin-bottom:15px !important;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects_imgblock {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .mobile-device_main__text {
+        margin:0px 0px 0px 0px;
+        max-width: 400px;
+    }
+
+    .mobile-device_main__arrows {
+        padding:35px 0px 0px 0px;
+    }
+
+    .partners { 
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+}
