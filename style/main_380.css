@@ -18,13 +18,13 @@
 
     .arrow-right {
         position:absolute;
-        bottom:100px;
-        left:200px;
+        bottom:200px;
+        left:220px;
     }
 
     .arrow-left { 
         position:absolute;
-        bottom:100px;
-        right:200px;
+        bottom:200px;
+        right:220px;
     }
 }
